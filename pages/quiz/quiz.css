@@ -7,6 +7,8 @@
 }
 
 :root {
+    --bg-span: #F4F6FA;
+    --color-span: #626C7F;
     --bg-color: #f4f6fa;
     --purple: #a729f5;
     --purple-houver: rgb(167, 41, 245, 0.7);
@@ -204,9 +206,9 @@ main {
     display: block;
     width: 40px;
     height: 40px;
-    background: var(--bg-color);
+    background: var(--bg-span);
     border-radius: 5px;
-    color: var(--secundary-text-color);
+    color: var(--color-span);
 
     display: flex;
     align-items: center;
